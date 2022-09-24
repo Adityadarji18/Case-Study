@@ -17,5 +17,5 @@ Here some the independent features are correlated to each other and must be remo
 4) Finding the perfect model fit
 Now to create a model I splitted the data into train and test set , next I fitted the Logistic Regression and LDA and tested on the test dataset.
 Now to increase the model accuracy I did hyperparameter tuning on both the models using GridSearchCV.
-Then I used LGBM (Light Gradient Boosted Machine) algorithm to check how it works on the data.
-Final Results - Logistic Regression 78% accuracy , LDA 82% accuracy , LGBM - 95 % accuracy.
+Then I used Random Forest Classifier to check how it works on the data.
+Final Results - Logistic Regression 78% accuracy RMSE - 0.71, LDA 82% accuracy RMSE - 0.49 , Random Forest - 94 % accuracy RMSE - 0.36  .
